@@ -1,6 +1,4 @@
-//forward declarations
-int readNumber();
-void writeAnswer(int number);
+#include "io.h"
 
 int main() {
   int x { readNumber() };
